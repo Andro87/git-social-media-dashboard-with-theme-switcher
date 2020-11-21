@@ -1,16 +1,53 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+@font-face{
+  font-family: "inter";
+  src: url("../public/fonts/Inter-Bold-slnt=0.ttf");
+  font-weight: 700;
+}
+
+@font-face{
+  font-family: "inter";
+  src: url("../public/fonts/Inter-Regular-slnt=0.ttf");
+  font-weight: 400;
+}
+
+
+:root{
+  --background:hsl(230, 17%, 14%);
+  --topbackground: hsl(232, 19%, 15%);
+  --cardbackground: hsl(228, 28%, 20%);
+  --text: hsl(228, 34%, 66%);
+  --white: hsl(0, 0%, 100%);
+}
+
+[data-theme="light"]{
+  --background: hsl(0, 0%, 100%);
+  --topbackground: hsl(225, 100%, 98%);
+  --cardbackground: hsl(227, 47%, 96%);
+  --text: hsl(228, 12%, 44%);
+  --white: hsl(230, 17%, 14%);
+}
+
+html{
+  font-size: 14px;
+}
+
+body{
+  font-family: "inter";
+  font-weight: 700;
+  color:var(--text);
+  font-size: 1rem;
+}
+
+h2{
+  font-family: "inter";
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 8px;
 }

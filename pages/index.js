@@ -6,7 +6,7 @@ import SmallBox from '../components/smallbox'
 
 export default function Home() {
 
-  const[light,setLight] = useState(false)   /**/ 
+  const[light,setLight] = useState(false)   
 
   useEffect(()=>{
     if(light){
@@ -322,7 +322,11 @@ export default function Home() {
 
         </div>
 
+      </div>
 
+      <div className={styles.attribution}>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Andro87</a>.
       </div>
      
     </div>

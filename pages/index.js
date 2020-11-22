@@ -34,13 +34,12 @@ export default function Home() {
                 <div className={styles.choose}>
                     <p>Dark Mode</p>
                     <div className={styles.switcher}>
-                        <label htmlFor="input" className={styles.label}>
-                            <input id="input"
-                                   type="checkbox"
-                                   className={styles.input}
-                                   onClick={e => setLight(e.target.checked)}
-                            />
-                        </label>
+                        <input id="input"
+                               type="checkbox"
+                               className={styles.input}
+                               onClick={e => setLight(e.target.checked)}
+                        />
+                        <label htmlFor="input" className={styles.label}></label>
                     </div>
                 </div>
             </div>

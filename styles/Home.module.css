@@ -114,23 +114,6 @@
   margin-top: 30px;
 }  
 
-
-.green{
-  color: hsl(163, 72%, 41%);
-  margin-left: 5px;
-}
-.red{  
-  color: hsl(356, 69%, 56%);
-  margin-left: 5px;
-}
-
-.display{
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  width: 100%;
-}
-
 .margin{
   margin-top: 45px;
   margin-bottom: 20px;

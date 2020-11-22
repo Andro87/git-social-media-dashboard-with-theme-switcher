@@ -1,4 +1,4 @@
-.small{
+.small {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,3 +8,28 @@
     border-radius: 5px;
 }
 
+.display {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.number {
+    color: var(--white);
+    font-size: clamp(2rem, 3vw, 4.5rem);
+    margin-top: 30px;
+    margin-bottom: 8px;
+}
+
+.green {
+    color: hsl(163, 72%, 41%);
+}
+
+.red {
+    color: hsl(356, 69%, 56%);
+}
+
+.green svg, .red svg {
+    margin-right: 5px;
+}

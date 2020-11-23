@@ -85,35 +85,6 @@
   grid-row-gap: 20px;
 }
 
-.details{
-  display: flex;
-  justify-content: space-between;
-}
-
-.details p{
-  margin-left: 10px;
-}
-
-.number{
-  color: var(--white);
-  font-size:clamp(2.5rem,4vw,4.5rem);
-  margin-top:30px ;
-  margin-bottom: 8px;
-}
-
-.followers{
-  font-family: "inter";
-  font-weight: 400;
-  letter-spacing: 0.3rem;
-}
-
-.today{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 30px;
-}  
-
 .margin{
   margin-top: 45px;
   margin-bottom: 20px;

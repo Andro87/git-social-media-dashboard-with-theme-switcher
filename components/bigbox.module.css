@@ -7,6 +7,11 @@
     background-color: var(--cardbackground);
     border-radius: 5px;
     position: relative;
+    cursor: pointer;
+}
+
+.big:hover{
+    background-color: var(--hover);
 }
 
 
@@ -35,6 +40,38 @@
 .youtube{
    border-top:5px solid hsl(348, 97%, 39%);
 }    
+
+
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.details p{
+margin-left: 10px;
+}
+
+.number{
+color: var(--white);
+font-size:clamp(2.5rem,4vw,4.5rem);
+margin-top:30px ;
+margin-bottom: 8px;
+}
+
+.followers{
+font-family: "inter";
+font-weight: 400;
+letter-spacing: 0.3rem;
+margin-bottom: 30px;
+}
+
+.today{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 30px;
+}  
+
 
 
 @media only screen and (max-width:1025px){

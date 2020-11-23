@@ -6,6 +6,11 @@
     padding: 27px 30px;
     background-color: var(--cardbackground);
     border-radius: 5px;
+    cursor: pointer;
+}
+
+.small:hover{
+    background-color: var(--hover);
 }
 
 .display {
@@ -22,14 +27,3 @@
     margin-bottom: 8px;
 }
 
-.green {
-    color: hsl(163, 72%, 41%);
-}
-
-.red {
-    color: hsl(356, 69%, 56%);
-}
-
-.green svg, .red svg {
-    margin-right: 5px;
-}

@@ -24,6 +24,7 @@
   --cardbackground: hsl(228, 28%, 20%);
   --text: hsl(228, 34%, 66%);
   --white: hsl(0, 0%, 100%);
+  --hover:hsl(229, 22%, 28%);
 }
 
 [data-theme="light"]{
@@ -32,6 +33,7 @@
   --cardbackground: hsl(227, 47%, 96%);
   --text: hsl(228, 12%, 44%);
   --white: hsl(230, 17%, 14%);
+  --hover:hsl(0, 0%, 89%);
 }
 
 html{

@@ -1,0 +1,11 @@
+.green {
+    color: hsl(163, 72%, 41%);
+}
+
+.red {
+    color: hsl(356, 69%, 56%);
+}
+
+.green svg, .red svg {
+    margin-right: 5px;
+}
